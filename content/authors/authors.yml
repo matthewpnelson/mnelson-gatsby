@@ -1,0 +1,16 @@
+- name: Matthew Nelson
+  bio: |
+    I am a self proclaimed 'Data Enthusiast', but really I'm just enthusiastic about creating exciting things (especially those with plenty of data). 
+    With an early career established in the Canadian Energy industry as a Professional Engineer, and now as an experiened Data Scientist 
+    trained out of the University of California, Berkeley, I am uniquely suited to understand the operational and financial challenges of 
+    corporations in traditional industries, while also suitably skilled to lead them into a technologically innovative future. I consider myself  
+    business-savvy with a hands-on-keyboard mentality.
+  avatar: ./avatars/matthew-nelson.jpg
+  featured: true
+  social:
+    - name: instagram
+      url: https://www.instagram.com/matthewpnelson
+    - name: github
+      url: https://github.com/matthewpnelson    
+    - name: linkedin
+      url: https://www.linkedin.com/in/matthewpeternelson/

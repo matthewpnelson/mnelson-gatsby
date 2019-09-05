@@ -1,0 +1,65 @@
+---
+title:  alegorithm.io
+author: Matthew Nelson
+date: 2019-08-31
+hero: ./images/DSCF3267.jpg
+excerpt: Machine Learning based Beer App serving up beer recommendations and auto-generated beer recipes.
+---
+
+As a final capstone project, Alegorithm was developed centered around two beer-related concepts: to establish similarities between commercial beers in order to provide recommendations for consumers and to create a Generative model which could create new beer recipes for brewers on the fly. For the commercial beer section data was scraped from some popular beer-related websites, cleaned, unsupervised clustering models were created, an API was written for those asynchronous requests, the dimensionality of the results was reduced and plotted with Dash, then all hosted on a website for a user to explore.
+
+For the generative section the data was scraped from multiple home brewer websites, a data format for a ‘beer recipe’ was standardized, a RNN using Keras was trained to predict a home brew’s user rating, then existing recipes were manipulated iteratively to create entirely new recipes which would be rated with our model. The results only retained the recipes which ranked highly, and these new recipes were offered up to users with another interactive Dash visualization on the website.
+
+<h3>A walkthrough </h3>
+<p>The website has been taken down since the completion of the MIDS program, however you can get a feel for the functionality of the app below </p>
+
+<div className="Image__Medium">
+  <img src="./images/banner.png" alt="Alegorithm Banner" />
+</div>
+
+
+<div className="Image__Medium">
+  <img src="./images/whatisit.png" alt="Alegorithm Explanation" />
+</div>
+
+<div className="Image__Medium">
+  <img src="./images/hype.png" alt="Alegorithm Hype" />
+</div>
+
+<div className="Image__Medium">
+  <img src="./images/offerings.png" alt="Alegorithm Offerings" />
+</div>
+
+<div className="Image__Medium">
+  <img src="./images/step1.png" alt="Alegorithm Step 1" />
+</div>
+
+<div className="Image__Medium">
+  <img src="./images/step2.png" alt="Alegorithm Step 2" />
+</div>
+
+<div className="Image__Medium">
+  <img src="./images/step3.png" alt="Alegorithm Step 3" />
+</div>
+
+<div className="Image__Medium">
+  <img src="./images/step3.png" alt="Alegorithm Step 3" />
+</div>
+
+<h3>A few details on the technical implementation </h3>
+
+<div className="Image__Medium">
+  <img src="./images/cleaning.png" alt="Alegorithm Cleaning" />
+</div>
+
+<div className="Image__Medium">
+  <img src="./images/cleaning2.png" alt="Alegorithm Cleaning continued" />
+</div>
+
+<div className="Image__Medium">
+  <img src="./images/modelvalidation.png" alt="Alegorithm Model Validation" />
+</div>
+
+<div className="Image__Medium">
+  <img src="./images/userinteraction.png" alt="Alegorithm User Interaction" />
+</div>

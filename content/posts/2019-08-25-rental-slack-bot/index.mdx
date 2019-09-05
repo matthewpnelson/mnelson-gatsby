@@ -1,0 +1,29 @@
+---
+title:  Slack Bot - San Francisco Rental Assistant
+author: Matthew Nelson
+date: 2019-08-24
+hero: ./images/thomas-tastet-hSODeSbvzE0-unsplash.jpg
+excerpt: Craigslist scraper and slack bot for evaluating potential rental properties in San Francisco.
+---
+
+As a final project for the 'w205 - Storing and Retrieving Data' course, our group chose to work with a Craigslist API to query current house rentals in the San Francisco area. 
+
+Our Bot was designed to ask a user a series of descriptive questions within a single Slack channel in order to establish personal preferences for the type of rental they wanted (close to parks, close to transit, bike parking available, high density of bars, etc.). The underlying Python & Spark code would ask the Craigslist API for a valid subset of the available rentals, then evaluate each rental against multiple static datasets (locations of public transit hubs, lat/long of treed areas in San Fran, bike parking locations, etc) to determine a shortlist of rentals that meet the users criteria. 
+
+This bot was surprisingly quite adept, and because it utilized Spark it could hold all the data in memory on our cluster resulting in reasonably quick queries. 
+
+<h3> Interaction Example & Results </h3>
+
+<div className="Image__Small">
+  <img src="./images/BotInteraction.png" alt="Rental Slackbot Interaction Example" />
+</div>
+
+<div className="Image__Small">
+  <img src="./images/SlackResults.png" alt="Rental Slackbot Example Results" />
+</div>
+
+<h3> Full Presentation </h3>
+
+<div className="Image__Medium">
+  <iframe src="https://drive.google.com/file/d/1BXcRNDoWWD4tSiyaMlnrLxXpu4pzfP4N/preview" width="100%" height="480"></iframe>
+</div>
